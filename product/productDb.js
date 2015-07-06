@@ -20,7 +20,7 @@ var productSchema = mongoose.Schema({
 	price: Number
 });
 
-var Product = db.model('Heroku2Be_Product', productSchema);
+var Product = db.model('heroku2be_product', productSchema);
 
 // refresh products
 
